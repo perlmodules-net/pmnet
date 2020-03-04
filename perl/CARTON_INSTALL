@@ -1,0 +1,14 @@
+#!/opt/perl-5.30/bin/perl
+
+use v5.30;
+use warnings;
+
+my $deploy = '';
+{
+    print "local or server? ";
+    chomp(my $ans = <STDIN>);
+    redo if $ans !~ /^(local|server)\z/;
+    $deploy = '--deployment' if $ans eq 'server';
+}
+
+system("/opt/perl-5.30/bin/carton install $deploy");

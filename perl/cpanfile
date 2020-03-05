@@ -1,1 +1,12 @@
 requires 'Mojolicious';
+requires 'experimentals';
+requires 'List::AllUtils';
+
+# db
+requires 'DBIx::Class';
+requires 'DBIx::Class::Helpers';
+requires 'DBIx::Class::Schema::Loader';
+requires 'DBD::Pg';
+
+# dev
+requires 'Data::Printer';

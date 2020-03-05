@@ -1,3 +1,9 @@
 {
-  secrets => ['bcf5ccf39088cae6331f9ce357ecc2b424dc4409']
+  secrets => ['bcf5ccf39088cae6331f9ce357ecc2b424dc4409'],
+  db => {
+    dbname => 'pmnet',
+    host   => 'localhost',
+    user   => 'dbuser',
+    pass   => 'dbuser',
+  },
 }

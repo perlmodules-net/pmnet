@@ -5,10 +5,10 @@ use warnings;
 
 my $deploy = '';
 {
-    print "local or server? ";
+    print "local or deploy? ";
     chomp(my $ans = <STDIN>);
-    redo if $ans !~ /^(local|server)\z/;
-    $deploy = '--deployment' if $ans eq 'server';
+    redo if $ans !~ /^(local|deploy)\z/;
+    $deploy = '--deployment' if $ans eq 'deploy';
 }
 
 system("/opt/perl-5.30/bin/carton install $deploy");

@@ -27,6 +27,12 @@ DISTRIBUTIONS
       perl 5.006001
       strict 0
       warnings 0
+  Canary-Stability-2013
+    pathname: M/ML/MLEHMANN/Canary-Stability-2013.tar.gz
+    provides:
+      Canary::Stability 2013
+    requirements:
+      ExtUtils::MakeMaker 0
   Carp-Clan-6.08
     pathname: E/ET/ETHER/Carp-Clan-6.08.tar.gz
     provides:
@@ -170,6 +176,22 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       base 0
       perl 5.006
+      strict 0
+      warnings 0
+  Cpanel-JSON-XS-4.19
+    pathname: R/RU/RURBAN/Cpanel-JSON-XS-4.19.tar.gz
+    provides:
+      Cpanel::JSON::XS 4.19
+      Cpanel::JSON::XS::Type undef
+    requirements:
+      Carp 0
+      Config 0
+      Encode 1.9801
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Pod::Text 2.08
+      XSLoader 0
+      overload 0
       strict 0
       warnings 0
   DBD-Pg-3.10.4
@@ -693,6 +715,23 @@ DISTRIBUTIONS
       base 0
       strict 0
       warnings 0
+  EV-4.32
+    pathname: M/ML/MLEHMANN/EV-4.32.tar.gz
+    provides:
+      EV 4.32
+      EV::MakeMaker undef
+    requirements:
+      Canary::Stability 0
+      ExtUtils::MakeMaker 6.52
+      common::sense 0
+  Exporter-Tiny-1.002001
+    pathname: T/TO/TOBYINK/Exporter-Tiny-1.002001.tar.gz
+    provides:
+      Exporter::Shiny 1.002001
+      Exporter::Tiny 1.002001
+    requirements:
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
   File-HomeDir-1.004
     pathname: R/RE/REHSACK/File-HomeDir-1.004.tar.gz
     provides:
@@ -754,6 +793,63 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.64
       Scalar::Util 0
       perl 5.008001
+  IO-Socket-SSL-2.067
+    pathname: S/SU/SULLR/IO-Socket-SSL-2.067.tar.gz
+    provides:
+      IO::Socket::SSL 2.067
+      IO::Socket::SSL::Intercept 2.056
+      IO::Socket::SSL::OCSP_Cache 2.067
+      IO::Socket::SSL::OCSP_Resolver 2.067
+      IO::Socket::SSL::PublicSuffix undef
+      IO::Socket::SSL::SSL_Context 2.067
+      IO::Socket::SSL::SSL_HANDLE 2.067
+      IO::Socket::SSL::Session_Cache 2.067
+      IO::Socket::SSL::Utils 2.014
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mozilla::CA 0
+      Net::SSLeay 1.46
+      Scalar::Util 0
+  IO-Socket-Socks-0.74
+    pathname: O/OL/OLEG/IO-Socket-Socks-0.74.tar.gz
+    provides:
+      IO::Socket::Socks 0.74
+      IO::Socket::Socks::Debug 0.74
+      IO::Socket::Socks::Error 0.74
+      IO::Socket::Socks::ReadOnlyVar 0.74
+      IO::Socket::Socks::SocketClassVar 0.74
+    requirements:
+      ExtUtils::MakeMaker 6.52
+      IO::Select 0
+      Socket 1.94
+      Test::More 0.88
+      constant 1.03
+  JSON-MaybeXS-1.004000
+    pathname: H/HA/HAARG/JSON-MaybeXS-1.004000.tar.gz
+    provides:
+      JSON::MaybeXS 1.004000
+    requirements:
+      Carp 0
+      Cpanel::JSON::XS 2.3310
+      ExtUtils::MakeMaker 0
+      JSON::PP 2.27300
+      Scalar::Util 0
+      perl 5.006
+  JSON-Validator-3.24
+    pathname: J/JH/JHTHORSEN/JSON-Validator-3.24.tar.gz
+    provides:
+      JSON::Validator 3.24
+      JSON::Validator::Error undef
+      JSON::Validator::Formats undef
+      JSON::Validator::Joi undef
+      JSON::Validator::Ref undef
+      JSON::Validator::Util undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      List::Util 1.45
+      Mojolicious 7.28
+      YAML::XS 0.80
+      perl 5.010001
   Lingua-EN-FindNumber-1.32
     pathname: N/NE/NEILB/Lingua-EN-FindNumber-1.32.tar.gz
     provides:
@@ -955,6 +1051,46 @@ DISTRIBUTIONS
       Carp 0
       ExtUtils::MakeMaker 0
       perl 5.006
+      strict 0
+      warnings 0
+  MetaCPAN-Client-2.026000
+    pathname: M/MI/MICKEY/MetaCPAN-Client-2.026000.tar.gz
+    provides:
+      MetaCPAN::Client 2.026000
+      MetaCPAN::Client::Author 2.026000
+      MetaCPAN::Client::Cover 2.026000
+      MetaCPAN::Client::Distribution 2.026000
+      MetaCPAN::Client::DownloadURL 2.026000
+      MetaCPAN::Client::Favorite 2.026000
+      MetaCPAN::Client::File 2.026000
+      MetaCPAN::Client::Mirror 2.026000
+      MetaCPAN::Client::Module 2.026000
+      MetaCPAN::Client::Package 2.026000
+      MetaCPAN::Client::Permission 2.026000
+      MetaCPAN::Client::Pod 2.026000
+      MetaCPAN::Client::Rating 2.026000
+      MetaCPAN::Client::Release 2.026000
+      MetaCPAN::Client::Request 2.026000
+      MetaCPAN::Client::ResultSet 2.026000
+      MetaCPAN::Client::Role::Entity 2.026000
+      MetaCPAN::Client::Role::HasUA 2.026000
+      MetaCPAN::Client::Scroll 2.026000
+      MetaCPAN::Client::Types 2.026000
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 7.1101
+      HTTP::Tiny 0.056
+      IO::Socket::SSL 1.42
+      JSON::MaybeXS 0
+      JSON::PP 0
+      Moo 0
+      Moo::Role 0
+      Net::SSLeay 1.49
+      Ref::Util 0
+      Safe::Isa 0
+      Type::Tiny 0
+      URI::Escape 0
+      perl 5.010
       strict 0
       warnings 0
   Module-Build-0.4231
@@ -1198,6 +1334,32 @@ DISTRIBUTIONS
       Sub::Defer 2.006006
       Sub::Quote 2.006006
       perl 5.006
+  Mozilla-CA-20180117
+    pathname: A/AB/ABH/Mozilla-CA-20180117.tar.gz
+    provides:
+      Mozilla::CA 20180117
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test 0
+      perl 5.006
+  Net-DNS-Native-0.22
+    pathname: O/OL/OLEG/Net-DNS-Native-0.22.tar.gz
+    provides:
+      Net::DNS::Native 0.22
+      Net::DNS::Native::Handle 0.22
+    requirements:
+      ExtUtils::MakeMaker 0
+      Socket 1.94
+      Test::More 0.88
+  Net-SSLeay-1.88
+    pathname: C/CH/CHRISN/Net-SSLeay-1.88.tar.gz
+    provides:
+      Net::SSLeay 1.88
+      Net::SSLeay::Handle 1.88
+    requirements:
+      ExtUtils::MakeMaker 0
+      MIME::Base64 0
+      perl 5.008001
   Package-Stash-0.38
     pathname: E/ET/ETHER/Package-Stash-0.38.tar.gz
     provides:
@@ -1266,6 +1428,26 @@ DISTRIBUTIONS
       overload 0
       parent 0
       strict 0
+  Ref-Util-0.204
+    pathname: A/AR/ARC/Ref-Util-0.204.tar.gz
+    provides:
+      Ref::Util 0.204
+      Ref::Util::PP 0.204
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Ref::Util::XS 0
+      Text::ParseWords 0
+      perl 5.006
+  Ref-Util-XS-0.117
+    pathname: X/XS/XSAWYERX/Ref-Util-XS-0.117.tar.gz
+    provides:
+      Ref::Util::XS 0.117
+    requirements:
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      XSLoader 0
+      perl 5.006
   Role-Tiny-2.001004
     pathname: H/HA/HAARG/Role-Tiny-2.001004.tar.gz
     provides:
@@ -1530,6 +1712,115 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Type-Tiny-1.010000
+    pathname: T/TO/TOBYINK/Type-Tiny-1.010000.tar.gz
+    provides:
+      Devel::TypeTiny::Perl56Compat 1.010000
+      Devel::TypeTiny::Perl58Compat 1.010000
+      Error::TypeTiny 1.010000
+      Error::TypeTiny::Assertion 1.010000
+      Error::TypeTiny::Compilation 1.010000
+      Error::TypeTiny::WrongNumberOfParameters 1.010000
+      Eval::TypeTiny 1.010000
+      Reply::Plugin::TypeTiny 1.010000
+      Test::TypeTiny 1.010000
+      Type::Coercion 1.010000
+      Type::Coercion::FromMoose 1.010000
+      Type::Coercion::Union 1.010000
+      Type::Library 1.010000
+      Type::Params 1.010000
+      Type::Parser 1.010000
+      Type::Registry 1.010000
+      Type::Tiny 1.010000
+      Type::Tiny::Class 1.010000
+      Type::Tiny::ConstrainedObject 1.010000
+      Type::Tiny::Duck 1.010000
+      Type::Tiny::Enum 1.010000
+      Type::Tiny::Intersection 1.010000
+      Type::Tiny::Role 1.010000
+      Type::Tiny::Union 1.010000
+      Type::Utils 1.010000
+      Types::Common::Numeric 1.010000
+      Types::Common::String 1.010000
+      Types::Standard 1.010000
+      Types::Standard::ArrayRef 1.010000
+      Types::Standard::CycleTuple 1.010000
+      Types::Standard::Dict 1.010000
+      Types::Standard::HashRef 1.010000
+      Types::Standard::Map 1.010000
+      Types::Standard::ScalarRef 1.010000
+      Types::Standard::StrMatch 1.010000
+      Types::Standard::Tied 1.010000
+      Types::Standard::Tuple 1.010000
+      Types::TypeTiny 1.010000
+    requirements:
+      Exporter::Tiny 1.000000
+      ExtUtils::MakeMaker 6.17
+      perl 5.006001
+  URI-1.76
+    pathname: O/OA/OALDERS/URI-1.76.tar.gz
+    provides:
+      URI 1.76
+      URI::Escape 3.31
+      URI::Heuristic 4.20
+      URI::IRI 1.76
+      URI::QueryParam 1.76
+      URI::Split 1.76
+      URI::URL 5.04
+      URI::WithBase 2.20
+      URI::data 1.76
+      URI::file 4.21
+      URI::file::Base 1.76
+      URI::file::FAT 1.76
+      URI::file::Mac 1.76
+      URI::file::OS2 1.76
+      URI::file::QNX 1.76
+      URI::file::Unix 1.76
+      URI::file::Win32 1.76
+      URI::ftp 1.76
+      URI::gopher 1.76
+      URI::http 1.76
+      URI::https 1.76
+      URI::ldap 1.76
+      URI::ldapi 1.76
+      URI::ldaps 1.76
+      URI::mailto 1.76
+      URI::mms 1.76
+      URI::news 1.76
+      URI::nntp 1.76
+      URI::pop 1.76
+      URI::rlogin 1.76
+      URI::rsync 1.76
+      URI::rtsp 1.76
+      URI::rtspu 1.76
+      URI::sftp 1.76
+      URI::sip 1.76
+      URI::sips 1.76
+      URI::snews 1.76
+      URI::ssh 1.76
+      URI::telnet 1.76
+      URI::tn3270 1.76
+      URI::urn 1.76
+      URI::urn::isbn 1.76
+      URI::urn::oid 1.76
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2
+      Net::Domain 0
+      Scalar::Util 0
+      constant 0
+      integer 0
+      overload 0
+      parent 0
+      perl 5.008001
+      strict 0
+      utf8 0
+      warnings 0
   Variable-Magic-0.62
     pathname: V/VP/VPIT/Variable-Magic-0.62.tar.gz
     provides:
@@ -1549,6 +1840,21 @@ DISTRIBUTIONS
       base 0
       lib 0
       perl 5.008
+  YAML-LibYAML-0.81
+    pathname: T/TI/TINITA/YAML-LibYAML-0.81.tar.gz
+    provides:
+      YAML::LibYAML 0.81
+      YAML::XS 0.81
+      YAML::XS::LibYAML undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
+  common-sense-3.74
+    pathname: M/ML/MLEHMANN/common-sense-3.74.tar.gz
+    provides:
+      common::sense 3.74
+    requirements:
+      ExtUtils::MakeMaker 0
   curry-1.001000
     pathname: M/MS/MSTROUT/curry-1.001000.tar.gz
     provides:

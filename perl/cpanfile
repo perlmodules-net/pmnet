@@ -1,4 +1,15 @@
+# mojolicious
 requires 'Mojolicious';
+#   mojo optional dependencies
+requires 'Cpanel::JSON::XS';
+requires 'EV';
+requires 'IO::Socket::Socks';
+requires 'IO::Socket::SSL';
+requires 'Net::DNS::Native';
+#requires 'Plack';
+#requires 'Role::Tiny';
+
+# misc
 requires 'experimentals';
 requires 'List::AllUtils';
 
@@ -10,3 +21,7 @@ requires 'DBD::Pg';
 
 # dev
 requires 'Data::Printer';
+
+# MetaCPAN API
+requires 'MetaCPAN::Client';
+requires 'JSON::Validator';

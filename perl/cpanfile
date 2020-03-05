@@ -25,3 +25,5 @@ requires 'Data::Printer';
 # MetaCPAN API
 requires 'MetaCPAN::Client';
 requires 'JSON::Validator';
+requires 'DateTime::Format::RFC3339';
+requires 'DateTime::Format::ISO8601';
